@@ -1,0 +1,9 @@
+image:
+    file: .gitpod.Dockerfile
+tasks:
+    - init: |
+          cabal build
+vscode:
+    extensions:
+        - haskell.haskell
+        - justusadam.language-haskell

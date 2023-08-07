@@ -1,0 +1,129 @@
+<div align="center">
+    <a href="https://www.youtube.com/@iogacademy"><img src="./img/logos.png" alt="IOG Academy on YouTube" width="400"></a>
+  <h1>Welcome to the Cardano Developer Course</h1>
+</div>
+
+- **Instructor:**
+  - [Lars Brünjes](email:lars.bruenjes@iohk.io)
+- **TAs**
+  - [Karina Lopez](email:karina.lopez@iohk.io)
+  - [Robertino Martinez](email:robertino.martinez@iohk.io)
+
+## Course Description
+
+This is a full-time 8-week course that will take you from zero to a productive Haskell and Smart Contract developer. In this course, we'll learn Haskell (an advanced, purely functional programming language), Marlowe (an ecosystem of tools and languages to enable the development of financial and transactional smart contracts), and Plutus (the smart contract platform of the Cardano blockchain).
+
+Here's a high-level overview of each week's contents:
+- **Week 1 (Haskell - 07/08):** Introduction to Haskell's syntax, core principles, and IO.
+- **Week 2 (Haskell - 14/08):** Testing, common abstractions, tools, and testing.
+- **Week 3 (Haskell - 21/08):** More abstractions, writing non-trivial programs, and data structures.
+- **Week 4 (Haskell - 28/08):** Combining effects, concurrency and parallelism, and Networking.
+- **Week 5 (Marlowe - 04/09):** Write smart contracts with Marlowe.
+- **Week 6 (Plutus  - 11/09):** Cardano Blockchain, EUTxO, Plutus tooling and simple Plutus contracts.
+- **Catchup week (18/09):**     Rest, catch up, and prepare for the final two weeks. 
+- **Week 7 (Plutus  - 18/09 or 25/09):** Non-trivial Plutus smart contracts and complete Dapps.
+- **Week 8 (Plutus  - 25/09 or 02/10):** Final project (chosen by the students) or More Dapps.
+
+## Getting the Software
+
+To go through this course, you will need:
+
+### Haskell:
+- `ghc` (the Haskell compiler) version 9.2.5.
+- `cabal-install` and Cabal library (a build tool for Haskell) version 3.6.2.0.
+- Haskell's Language Server
+- A suitable text editor or IDE (e.g., VSCode, (Neo)Vim, Emacs) with proper configuration.
+
+**If you want to start working on your own code**, we recommend using [this template](https://github.com/iohkedu-ke2023/haskell-template) which comes with a development environment ready to go.
+
+**If you want to run the examples in this repo, choose the one you prefer:**
+- Remote development environment: [Install the GitPod extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension), and click the new "Gitpod" button at the top of the repo.
+- Local development environment inside Docker: Make sure you have the latest version of [Docker Desktop](https://www.docker.com/products/docker-desktop/) and [VSCode](https://code.visualstudio.com/). Open the `examples-haskell` folder in VSCode (not the root of the repo). You'll get a notification about a Dev Container config file. Click on "Reopen in Container".
+- Local development environment directly on your computer using GHCup: Follow [these instructions](https://www.youtube.com/watch?v=hSN5mxITv0A&list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb&index=13) (all platforms).
+
+### Marlowe
+- A local Docker instance or online environment provided by the instructors.
+
+Instructions on how to install the necessary software will be available here when needed.
+
+### Plutus
+- A local Docker instance or online environment provided by the instructors.
+
+Instructions on how to install the necessary software will be available here when needed.
+
+## How to get help
+
+- [Discord for this course](https://discord.gg/XEd3hbCZ)
+- [Haskell tag stackoverflow.com](https://stackoverflow.com/questions/tagged/haskell)
+- [IOG Technical Community](https://discord.com/invite/inputoutput)
+
+## Lectures
+
+|      ID     | Lecture and slides                                       | Assignments | Projects |
+|-------------|----------------------------------------------------------|-------------|----------|
+| **Week 01** |                                                          |             |          |
+| Lecture 010 | Welcome                                                  |             |          |
+|             | Introduction to Cryptocurrencies                         |             |          |
+|             | An Overview of Haskell                                   |     A1      |          |
+| Lecture 020 | Datatypes & Functions                                    |     A2      |          |
+| Lecture 030 | Polymorphism & Type Classes                              |     --      |          |
+| Lecture 040 | Higher-Order Functions                                   |     A4      |          |
+|             | Packaging & Tools                                        |     --      |          |
+| Lecture 050 | IO                                                       |     A5      |          |
+| **Week 02** | **Next week's outline sepends on students' performance** |   **W1**    |          |
+
+### Assignments
+
+Daily assignments are due next day.
+
+Weekly homework is due Mondays before the lecture, one week after they have been handed out.
+
+All submissions are via GitHub Classroom.
+
+### Defects
+
+If you find a defect in one of the sample programs or slides (typos included), please, open an issue on this GitHub repository.
+
+### Bibliography
+
+#### Haskell
+
+0. IOG Academy. [Haskell Course](https://github.com/input-output-hk/haskell-course). YouTube.
+
+> Beginner friendly Haskell course.
+
+We have read most of this books and they provide good information for beginners.
+
+1. Lipovača M. [Learn You A Haskell For Great Good!](http://learnyouahaskell.com/). San Francisco: No Starch Press; 2012.
+
+>Beginner Friendly book with lots of examples.
+
+2. O'Sullivan B, Stewart D, Goerzen J. [Real World Haskell](http://book.realworldhaskell.org/). Farnham: O'Reilly; 2009.
+
+>A lot of real world techniques, just a little bit outdated at this point.
+
+3. Bird R. [Algorithm Design With Haskell](https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird-ebook/dp/B08BKXJ1N3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1597814133&sr=8-1). Cambridge University Press; 2020.
+
+>Learn how far you can get with immutable data, to implement almost all standard algorithms.
+
+4. Thibaut C. [Texas Hold'em: The Little Haskeller](https://leanpub.com/texasholdem-tlh).leanpub.com; 2019.
+
+>A long article, written in the Quesntion and Answer format. Like the Little Schemer.
+
+5. Penner C. [Optics By Example: Functional Lenses In Haskell](https://leanpub.com/optics-by-example). leanpub.com; 2020.
+
+>The only book on optics.
+
+6. Haskell Org. More resources at [Hakell's official website](https://www.haskell.org/documentation/).
+
+> It contains dozens of resources from various sources.
+
+#### Marlowe
+
+7. IOG. [Marlowe official documentation](https://docs.marlowe.iohk.io/docs/introduction).
+
+#### Plutus
+
+8. IOG. PlutusTx [official documentation](https://plutus.readthedocs.io/en/latest/).
+
+9. IOG. Plutus Core [repository](https://github.com/input-output-hk/plutus).
