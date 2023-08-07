@@ -64,7 +64,7 @@ Instructions on how to install the necessary software will be available here whe
 | **Week 01** |                                                          |             |          |
 | Lecture 010 | Welcome                                                  |             |          |
 |             | Introduction to Cryptocurrencies                         |             |          |
-|             | An Overview of Haskell                                   |     A1      |          |
+|             | An Overview of Haskell                                   |     [A1](https://classroom.github.com/a/vGW6fZNQ)      |          |
 | Lecture 020 | Datatypes & Functions                                    |     A2      |          |
 | Lecture 030 | Polymorphism & Type Classes                              |     --      |          |
 | Lecture 040 | Higher-Order Functions                                   |     A4      |          |
