@@ -1,12 +1,12 @@
 cabal-version:       3.4
-name:                datatypes-and-functions
+name:                datatypes-functions
 version:             0.1.0.0
 author:              Lars Brünjes
 maintainer:          brunjlar@gmail.com
 build-type:          Simple
 
 library
-  exposed-modules:     DatatypesAndFunctions
+  exposed-modules:     DatatypesFunctions
   hs-source-dirs:      src
   build-depends:       base ^>=4.16
   default-language:    Haskell2010
