@@ -59,18 +59,18 @@ Instructions on how to install the necessary software will be available here whe
 
 ## Lectures
 
-|      ID     | Lecture and slides                                       | Assignments | Projects |
-|-------------|----------------------------------------------------------|-------------|----------|
-| **Week 01** |                                                          |             |          |
-| Lecture 000 | Welcome                                                  |             |          |
-| Lecture 010 | Introduction to Cryptocurrencies                         |             |          |
+|      ID     | Lecture and slides                                       | Assignments                                            | Projects |
+|-------------|----------------------------------------------------------|--------------------------------------------------------|----------|
+| **Week 01** |                                                          |                                                        |          |
+| Lecture 000 | Welcome                                                  |                                                        |          |
+| Lecture 010 | Introduction to Cryptocurrencies                         |                                                        |          |
 | Lecture 020 | An Overview of Haskell                                   |     [A2](https://classroom.github.com/a/vGW6fZNQ)      |          |
 | Lecture 030 | Datatypes & Functions                                    |     [A3](https://classroom.github.com/a/cPPqAw1u)      |          |
-| Lecture 040 | Polymorphism & Type Classes                              |     --      |          |
-| Lecture 050 | Higher-Order Functions                                   |     A5      |          |
-|             | Packaging & Tools                                        |     --      |          |
-| Lecture 060 | IO                                                       |     A6      |          |
-| **Week 02** | **Next week's outline depends on students' performance** |   **W1**    |          |
+| Lecture 040 | Polymorphism & Type Classes                              |     --                                                 |          |
+| Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |          |
+|             | Packaging & Tools                                        |     --                                                 |          |
+| Lecture 060 | IO                                                       |     A6                                                 |          |
+| **Week 02** | **Next week's outline depends on students' performance** |   **W1**                                               |          |
 
 ### Assignments
 
