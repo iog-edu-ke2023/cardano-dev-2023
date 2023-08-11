@@ -1,0 +1,24 @@
+cabal-version:      3.0
+name:               io
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             Lars Bruenjes
+maintainer:         lars.bruenjes@iohk.io
+
+library
+    exposed-modules:  IO
+    build-depends:    base ^>=4.16.4.0
+                    , directory
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    ghc-options:      -Wall
+
+executable kenya-io
+    main-is:          Main.hs
+    build-depends:
+        base ^>=4.16.4.0,
+        io
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall
