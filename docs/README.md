@@ -69,7 +69,7 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 040 | Polymorphism & Type Classes                              |     --                                                 |          |
 | Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |          |
 |             | Packaging & Tools                                        |     --                                                 |          |
-| Lecture 060 | IO                                                       |     A6                                                 |          |
+| Lecture 060 | IO                                                       |     A6 / [T1](https://classroom.github.com/a/Z9v_P01H) |          |
 | **Week 02** | **Next week's outline depends on students' performance** |   **W1**                                               |          |
 
 ### Assignments
