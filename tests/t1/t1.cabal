@@ -1,0 +1,23 @@
+cabal-version:        3.4 
+name:                 t1
+version:              0.1.0.0
+build-type:           Simple
+extra-source-files:   README.md
+
+common common
+  ghc-options:        -Wall
+  build-depends:      base ^>= 4.16.4.0
+
+library
+  import:             common
+  hs-source-dirs:     src
+  exposed-modules:    T1
+
+test-suite t1-doctests
+  import:             common
+  type:               exitcode-stdio-1.0
+  main-is:            doctests.hs
+  build-depends:      doctest
+                    , template-haskell
+  ghc-options:        -threaded
+  hs-source-dirs:     doctest

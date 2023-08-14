@@ -1,0 +1,6 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:t1"
+    - path: "./doctest"
+      component: "test:t1-doctests"
