@@ -69,8 +69,14 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 040 | Polymorphism & Type Classes                              |     --                                                 |          |
 | Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |          |
 |             | Packaging & Tools                                        |     --                                                 |          |
-| Lecture 060 | IO                                                       |     A6 / T1                                            |          |
-| **Week 02** | **Next week's outline depends on students' performance** |   **W1**                                               |          |
+| Lecture 060 | IO                                                       |     [A6](https://classroom.github.com/a/FtEiTAuM) / T1 |          |
+| **Week 02** |                                                          |   **W1**                                               |          |
+| Lecture 060 | Testing                                                  |                                                        |          |
+| Lecture 070 | Abstraction Patterns                                     |                                                        |          |
+| Lecture 080 | Concurrency                                              |                                                        |          |
+| Lecture 090 | Network Servers                                          |                                                        |          |
+| Lecture 100 | Parser Combinators                                       |                                                        |          |
+| **Week 03** | **Next week's outline depends on students' performance** |   **W2**                                               |          |
 
 ### Assignments
 
