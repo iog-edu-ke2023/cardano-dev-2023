@@ -70,7 +70,7 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |          |
 |             | Packaging & Tools                                        |     --                                                 |          |
 | Lecture 060 | IO                                                       |     [A6](https://classroom.github.com/a/FtEiTAuM) / T1 |          |
-| **Week 02** |                                                          |   **W1**                                               |          |
+| **Week 02** |                                                          |   **[W1](https://classroom.github.com/a/SCL-tjks)**    |          |
 | Lecture 060 | Testing                                                  |                                                        |          |
 | Lecture 070 | Abstraction Patterns                                     |                                                        |          |
 | Lecture 080 | Concurrency                                              |                                                        |          |
