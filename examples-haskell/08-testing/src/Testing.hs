@@ -66,19 +66,19 @@ data Tree a = Leaf a | Node (Tree a) (Tree a)
 
 -- A random tree of size n should have at most (n + 1) leaves.
 
--- generate a random tree with at most the given number of leaves.
+-- generate a random tree with the given number of leaves.
 genTree :: Arbitrary a => Int -> Gen (Tree a)
 genTree n
     | n <= 1    = Leaf <$> arbitrary
-    | otherwise = frequency
-            [ (1, Leaf <$> arbitrary)
-            , (2, liftM2 Node (genTree m) (genTree m))
-            ]
-        where
-            m = n `div` 2
+    | otherwise = do
+        nl <- elements [1 .. n - 1]
+        let nr = n - nl
+        Node <$> genTree nl <*> genTree nr
 
 instance Arbitrary a => Arbitrary (Tree a) where
-    arbitrary = sized $ \n -> genTree (n + 1)
+    arbitrary = sized $ \n -> do
+        m <- elements [1 .. n + 1]
+        genTree m
 
 -- fmap :: Functor f => (a -> b) -> f a -> f b
 -- fmap :: (a -> b) -> Gen a -> Gen b

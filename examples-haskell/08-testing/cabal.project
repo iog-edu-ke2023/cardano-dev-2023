@@ -1,0 +1,5 @@
+packages: testing.cabal
+
+package attoparsec
+    coverage: False
+    library-coverage: False
