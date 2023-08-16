@@ -1,0 +1,74 @@
+cabal-version:      3.0
+name:               concurrency
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             Lars Bruenjes
+maintainer:         lars.bruenjes@iohk.io
+
+library
+    exposed-modules:  Concurrency
+    build-depends:    base ^>=4.16.4.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    ghc-options:      -Wall
+
+executable accounts-async
+    main-is:          accounts-async.hs
+    build-depends:    base ^>= 4.16
+                    , async
+                    , random
+                    , stm
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+
+executable accounts-stm
+    main-is:          accounts-stm.hs
+    build-depends:    base ^>= 4.16
+                    , random
+                    , stm
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+
+executable accounts
+    main-is:          accounts.hs
+    build-depends:    base ^>= 4.16
+                    , random
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+
+executable ioref
+    main-is:          ioref.hs
+    build-depends:    base ^>= 4.16
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N2
+
+executable number-forever
+    main-is:          number-forever.hs
+    build-depends:    base ^>= 4.16
+                    , concurrency
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+
+executable shouting-server
+    main-is:          shouting-server.hs
+    build-depends:    base ^>= 4.16
+                    , network
+                    , network-simple
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+
+executable shouting-client
+    main-is:          shouting-client.hs
+    build-depends:    base ^>= 4.16
+                    , network
+                    , network-simple
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
