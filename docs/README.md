@@ -14,13 +14,16 @@
 This is a full-time 8-week course that will take you from zero to a productive Haskell and Smart Contract developer. In this course, we'll learn Haskell (an advanced, purely functional programming language), Marlowe (an ecosystem of tools and languages to enable the development of financial and transactional smart contracts), and Plutus (the smart contract platform of the Cardano blockchain).
 
 Here's a high-level overview of each week's contents:
+
+**⚠️ IMPORTANT!: The original schedule and outline have been heavily modified due to the students' lack of time (see "Lectures" section). ⚠️**
+
 - **Week 1 (Haskell - 07/08):** Introduction to Haskell's syntax, core principles, and IO.
 - **Week 2 (Haskell - 14/08):** Testing, common abstractions, tools, and testing.
 - **Week 3 (Haskell - 21/08):** More abstractions, writing non-trivial programs, and data structures.
 - **Week 4 (Haskell - 28/08):** Combining effects, concurrency and parallelism, and Networking.
 - **Week 5 (Marlowe - 04/09):** Write smart contracts with Marlowe.
 - **Week 6 (Plutus  - 11/09):** Cardano Blockchain, EUTxO, Plutus tooling and simple Plutus contracts.
-- **Catchup week (18/09):**     Rest, catch up, and prepare for the final two weeks. 
+- **Catchup week (18/09):**     Rest, catch up and prepare for the final two weeks. 
 - **Week 7 (Plutus  - 18/09 or 25/09):** Non-trivial Plutus smart contracts and complete Dapps.
 - **Week 8 (Plutus  - 25/09 or 02/10):** Final project (chosen by the students) or More Dapps.
 
@@ -75,8 +78,16 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 070 | Abstraction Patterns                                     |                                                        |          |
 | Lecture 080 | Concurrency                                              |                                                        |          |
 | Lecture 090 | Network Servers                                          |                                                        |          |
-| Lecture 100 | Parser Combinators                                       |                                                        |          |
-| **Week 03** | **Next week's outline depends on students' performance** |   **W2**                                               |          |
+| Lecture 100 | Parser Combinators                                       |                                                        |          |      
+| **Week 03** |                                                          |                                                        |          | 
+| Lecture 120 | Data Structures                                          |                                                        |          |
+| **Week 04** |                                                          |   **W2**                                               |  **P1**  |
+| Lecture 130 | More Data Structures                                     |                                                        |          |
+| Lecture 140 | Optics                                                   |                                                        |          |
+| **Week 05** |                                                          |   **W4**                                               |          |
+| Lecture 150 | More on Monads (MonadT)                                  |                                                        |          |
+| Lecture 160 | Template Haskell                                         |                                                        |          |
+| **Week 06** | **Depends on students' performance**                     |                                                        |          |
 
 ### Assignments
 
