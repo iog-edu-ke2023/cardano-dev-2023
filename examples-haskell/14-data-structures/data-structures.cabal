@@ -1,5 +1,5 @@
 cabal-version:      3.0
-name:               datatypes
+name:               data-structures
 version:            0.1.0.0
 license:            MIT
 license-file:       LICENSE
@@ -13,7 +13,7 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  Datatypes
+    exposed-modules:  DataStructures
                     , Probability
     build-depends:    base ^>=4.16.4.0
                     , containers

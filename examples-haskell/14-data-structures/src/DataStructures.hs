@@ -4,7 +4,7 @@
 {-# LANGUAGE StandaloneKindSignatures #-}
 {-# LANGUAGE TypeSynonymInstances     #-}
 
-module Datatypes where
+module DataStructures where
 
 import           Data.Kind (Type)
 import           Data.Map  (Map)
