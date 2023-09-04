@@ -62,32 +62,40 @@ Instructions on how to install the necessary software will be available here whe
 
 ## Lectures
 
-|      ID     | Lecture and slides                                       | Assignments                                            | Projects |
-|-------------|----------------------------------------------------------|--------------------------------------------------------|----------|
-| **Week 01** |                                                          |                                                        |          |
-| Lecture 000 | Welcome                                                  |                                                        |          |
-| Lecture 010 | Introduction to Cryptocurrencies                         |                                                        |          |
-| Lecture 020 | An Overview of Haskell                                   |     [A2](https://classroom.github.com/a/vGW6fZNQ)      |          |
-| Lecture 030 | Datatypes & Functions                                    |     [A3](https://classroom.github.com/a/cPPqAw1u)      |          |
-| Lecture 040 | Polymorphism & Type Classes                              |     --                                                 |          |
-| Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |          |
-|             | Packaging & Tools                                        |     --                                                 |          |
-| Lecture 060 | IO                                                       |     [A6](https://classroom.github.com/a/FtEiTAuM) / T1 |          |
-| **Week 02** |                                                          |   **[W1](https://classroom.github.com/a/SCL-tjks)**    |          |
-| Lecture 060 | Testing                                                  |                                                        |          |
-| Lecture 070 | Abstraction Patterns                                     |                                                        |          |
-| Lecture 080 | Concurrency                                              |                                                        |          |
-| Lecture 090 | Network Servers                                          |                                                        |          |
-| Lecture 100 | Parser Combinators                                       |                                                        |          |      
-| **Week 03** |                                                          |                                                        |          | 
-| Lecture 120 | Data Structures                                          |                                                        |          |
-| **Week 04** |                                                          |   **W2**                                               |  **P1**  |
-| Lecture 130 | More Data Structures                                     |                                                        |          |
-| Lecture 140 | Optics                                                   |                                                        |          |
-| **Week 05** |                                                          |   **W4**                                               |          |
-| Lecture 150 | More on Monads (MonadT)                                  |                                                        |          |
-| Lecture 160 | Template Haskell                                         |                                                        |          |
-| **Week 06** | **Depends on students' performance**                     |                                                        |          |
+|      ID     | Lecture and slides                                       | Assignments                                            | Projects                                            |
+|-------------|----------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
+| **Week 01** |                                                          |                                                        |                                                     |
+| Lecture 000 | Welcome                                                  |                                                        |                                                     |
+| Lecture 010 | Introduction to Cryptocurrencies                         |                                                        |                                                     |
+| Lecture 020 | An Overview of Haskell                                   |     [A2](https://classroom.github.com/a/vGW6fZNQ)      |                                                     |
+| Lecture 030 | Datatypes & Functions                                    |     [A3](https://classroom.github.com/a/cPPqAw1u)      |                                                     |
+| Lecture 040 | Polymorphism & Type Classes                              |     --                                                 |                                                     |
+| Lecture 050 | Higher-Order Functions                                   |     [A5](https://classroom.github.com/a/ELufokIr)      |                                                     |
+|             | Packaging & Tools                                        |     --                                                 |                                                     |
+| Lecture 060 | IO                                                       |     [A6](https://classroom.github.com/a/FtEiTAuM) / T1 |                                                     |
+| **Week 02** |                                                          |   **[W1](https://classroom.github.com/a/SCL-tjks)**    |                                                     |
+| Lecture 060 | Testing                                                  |                                                        |                                                     |
+| Lecture 070 | Abstraction Patterns                                     |                                                        |                                                     |
+| Lecture 080 | Concurrency                                              |                                                        |                                                     |
+| Lecture 090 | Network Servers                                          |                                                        |                                                     |
+| Lecture 100 | Parser Combinators                                       |                                                        |                                                     |
+| **Week 03** |                                                          |                                                        |                                                     |
+| Lecture 120 | Data Structures                                          |                                                        |                                                     |
+| **Week 04** |                                                          |                                                        |                                                     |
+| Lecture 130 | More Data Structures                                     |                                                        |                                                     |
+| Lecture 140 | Optics                                                   |                                                        |                                                     |
+| **Week 05** |                                                          |   **[W2](https://classroom.github.com/a/YpgS8kB5)**    |  **[P1](https://classroom.github.com/a/rdivOq_L)**  |
+| Lecture 150 | More on Optics                                           |                                                        |                                                     |
+| Lecture 160 | More on Monads (MonadT)                                  |                                                        |                                                     |
+| **Week 06** |                                                          |   **W3**                                               |                                                     |
+| Lecture 150 | Free Monads                                              |                                                        |                                                     |
+| Lecture 160 | Template Haskell                                         |                                                        |                                                     |
+| **Week 07** |                                                          |   **W4**                                               |                                                     |
+| BREAK       |                                                          |                                                        |                                                     |
+| **Week 08** |                                                          |   **W5**                                               |                                                     |
+| Lecture 150 | Web development                                          |                                                        |                                                     |
+| Lecture 160 | Introduction to Marlowe                                  |                                                        |                                                     |
+| **Week 09** | **Depends on students' performance**                     |                                                        |                                                     |
 
 ### Assignments
 
