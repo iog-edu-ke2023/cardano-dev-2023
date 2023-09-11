@@ -1,0 +1,34 @@
+cabal-version:      3.0
+name:               free-monads
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             Lars Bruenjes
+maintainer:         lars.bruenjes@iohk.io
+category:           Data
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  FreeMonads.AdHoc
+                      FreeMonads.Concurrency
+                      FreeMonads.Free
+                      FreeMonads.MTL
+                      FreeMonads.Prob
+    build-depends:    base ^>=4.16.4.0
+                    , containers
+                    , mtl
+                    , random
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+executable more-monads 
+    main-is:          more-monads.hs
+    build-depends:    base ^>= 4.16
+                    , more-monads
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    ghc-options:      -Wall -O2
