@@ -87,7 +87,7 @@ Instructions on how to install the necessary software will be available here whe
 | **Week 05** |                                                          |   **[W2](https://classroom.github.com/a/YpgS8kB5)**    |  **[P1](https://classroom.github.com/a/rdivOq_L)**  |
 | Lecture 150 | More on Optics                                           |                                                        |                                                     |
 | Lecture 160 | More on Monads (MonadT)                                  |                                                        |                                                     |
-| **Week 06** |                                                          |   **W3**                                               |                                                     |
+| **Week 06** |                                                          |   **[W3](https://classroom.github.com/a/0PEjxAov)**    |                                                     |
 | Lecture 150 | Free Monads                                              |                                                        |                                                     |
 | Lecture 160 | Template Haskell                                         |                                                        |                                                     |
 | **Week 07** |                                                          |   **W4**                                               |                                                     |
