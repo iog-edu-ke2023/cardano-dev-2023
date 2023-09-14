@@ -89,13 +89,16 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 160 | More on Monads (MonadT)                                  |                                                        |                                                     |
 | **Week 06** |                                                          |   **[W3](https://classroom.github.com/a/0PEjxAov)**    |                                                     |
 | Lecture 150 | Free Monads                                              |                                                        |                                                     |
-| Lecture 160 | Template Haskell                                         |                                                        |                                                     |
+| Lecture 160 | Generics                                                 |                                                        |                                                     |
 | **Week 07** |                                                          |   **W4**                                               |                                                     |
 | BREAK       |                                                          |                                                        |                                                     |
 | **Week 08** |                                                          |   **W5**                                               |                                                     |
+| Lecture 160 | Template Haskell                                         |                                                        |                                                     |
+| **Week 09** |                                                          |                                                        |                                                     |
 | Lecture 150 | Web development                                          |                                                        |                                                     |
 | Lecture 160 | Introduction to Marlowe                                  |                                                        |                                                     |
-| **Week 09** | **Depends on students' performance**                     |                                                        |                                                     |
+| **Week 10** | **Depends on students' performance**                     |                                                        |                                                     |
+
 
 ### Assignments
 
