@@ -90,7 +90,7 @@ Instructions on how to install the necessary software will be available here whe
 | **Week 06** |                                                          |   **[W3](https://classroom.github.com/a/0PEjxAov)**    |                                                     |
 | Lecture 150 | Free Monads                                              |                                                        |                                                     |
 | Lecture 160 | Generics                                                 |                                                        |                                                     |
-| **Week 07** |                                                          |   **W4**                                               |                                                     |
+| **Week 07** |                                                          |   **[W4](https://classroom.github.com/a/L1O7zRdt)**                                               |                                                     |
 | BREAK       |                                                          |                                                        |                                                     |
 | **Week 08** |                                                          |   **W5**                                               |                                                     |
 | Lecture 160 | Template Haskell                                         |                                                        |                                                     |
