@@ -97,7 +97,17 @@ Instructions on how to install the necessary software will be available here whe
 | **Week 09** |                                                          |                                                        |                                                     |
 | Lecture 150 | Web development                                          |                                                        |                                                     |
 | Lecture 160 | Introduction to Marlowe                                  |                                                        |                                                     |
-| **Week 10** | **Depends on students' performance**                     |                                                        |                                                     |
+| **Week 10** |                                                          |                                                        |                                                     |
+| Lecture 170 | Marlowe Smart Contracts and infrastructure               |                                                        |                                                     |
+| Lecture 180 | Introduction to Plutus (EUTxO and untyped Plutus)        |                                                        |                                                     |
+| **Week 11** |                                                          |                                                        |                                                     |
+| Lecture 190 | Typed Plutus                                             |                                                        |                                                     |
+| Lecture 200 | Handling time and minting wiht Plutus                    |                                                        |                                                     |
+| **Week 12** |                                                          |                                                        |                                                     |
+| Lecture 210 | Testing Plutus contracts                                 |                                                        |                                                     |
+| Lecture 220 | Builging a Stable Coin Dapp                              |                                                        |                                                     |
+| **Week 13** |                                                          |                                                        |                                                     |
+| HOMEWORK    | FINAL PROJECT                                            |                                                        |                                                     |
 
 
 ### Assignments

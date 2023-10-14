@@ -1,0 +1,17 @@
+cabal-version:      3.4
+name:               hello-world-offchain
+version:            0.1.0.0
+author:             IOG's education team
+maintainer:         education@iohk.io
+license:            Apache-2.0
+build-type:         Simple
+
+library
+    exposed-modules:  Offchain
+    build-depends:    atlas-cardano
+                    , base
+                    , hello-world-onchain 
+                    , utilities
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    ghc-options: -Wall

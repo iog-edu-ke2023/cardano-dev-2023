@@ -1,0 +1,5 @@
+dist-newstyle/
+24-hello-world/txs/
+24-hello-world/keys/user.skey
+config-core-blockfrost-preprod.json
+config-core-maestro-preprod.json
