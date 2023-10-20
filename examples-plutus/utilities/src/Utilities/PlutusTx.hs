@@ -7,8 +7,8 @@ module Utilities.PlutusTx
   ) where
 
 import           PlutusLedgerApi.V2 (ScriptContext, UnsafeFromData,
-                                       unsafeFromBuiltinData)
-import           PlutusTx.Prelude     (Bool, BuiltinData, check, ($))
+                                     unsafeFromBuiltinData)
+import           PlutusTx.Prelude   (Bool, BuiltinData, check, ($))
 
 {-# INLINABLE wrapValidator #-}
 wrapValidator :: ( UnsafeFromData a

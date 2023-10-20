@@ -19,11 +19,11 @@ mkBurnValidator :: BuiltinData -> BuiltinData -> BuiltinData -> ()
 mkBurnValidator _ _ _ = traceError "it burns!!!"
 {-# INLINABLE mkBurnValidator #-}
 
-validator :: CompiledCode (BuiltinData -> BuiltinData -> BuiltinData -> ())
-validator = $$(PlutusTx.compile [|| mkBurnValidator ||])
+burnValidator :: CompiledCode (BuiltinData -> BuiltinData -> BuiltinData -> ())
+burnValidator = $$(PlutusTx.compile [|| mkBurnValidator ||])
 
 ---------------------------------------------------------------------------------------------------
 ------------------------------------- HELPER FUNCTIONS --------------------------------------------
 
 saveVal :: IO ()
-saveVal = writeValidatorToFile "./assets/burn.plutus" validator
+saveVal = writeValidatorToFile "./assets/burn.plutus" burnValidator

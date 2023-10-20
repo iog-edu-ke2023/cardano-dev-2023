@@ -10,6 +10,9 @@ library
     exposed-modules:  Offchain
     build-depends:    atlas-cardano
                     , base
+                    , containers
+                    , mtl
+                    , plutus-tx
                     , validators-onchain 
                     , utilities
     hs-source-dirs:   src

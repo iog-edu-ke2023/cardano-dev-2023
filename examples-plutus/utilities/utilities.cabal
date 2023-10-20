@@ -9,7 +9,8 @@ build-type:         Simple
 library
     hs-source-dirs:   src
     exposed-modules:  Utilities
-    other-modules:    Utilities.PlutusTx
+    other-modules:    Utilities.Conversions
+                      Utilities.PlutusTx
                       Utilities.Serialise
     build-depends:    aeson
                     , atlas-cardano

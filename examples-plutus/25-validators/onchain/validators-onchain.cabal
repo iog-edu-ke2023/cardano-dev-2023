@@ -7,7 +7,8 @@ license:            Apache-2.0
 build-type:         Simple
 
 library
-    exposed-modules:  Burn
+    exposed-modules:  Atomic
+                    , Burn
                     , FortyTwo
                     , FortyTwoTyped
                     , CustomTypes

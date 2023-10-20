@@ -1,0 +1,5 @@
+Time
+
+- tx has a "validity interval" (both endpoints optional) - time during which the tx can be valid.
+- during phase 1, the node checks that the current time falls into the validity interval.
+- Plutus scripts only "see" the validity interval, NOT the current time.

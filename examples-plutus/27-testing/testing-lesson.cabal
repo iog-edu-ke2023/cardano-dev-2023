@@ -1,0 +1,69 @@
+cabal-version:      3.4
+name:               testing-lesson
+version:            0.1.0.0
+author:             IOG's education team
+maintainer:         education@iohk.io
+license:            Apache-2.0
+build-type:         Simple
+
+common common-all
+    build-depends:    base
+                    , aeson
+                    , bytestring
+                    , containers
+                    , cardano-api
+                    , data-default
+                    , plutus-ledger-api
+                    , plutus-tx-plugin
+                    , plutus-tx
+                    , text
+                    , serialise
+                    , utilities
+                    , QuickCheck
+                    , tasty
+                    , tasty-quickcheck
+                    , plutus-simple-model
+                    , mtl
+    default-language: Haskell2010
+    ghc-options: -Wall -fobject-code -fno-ignore-interface-pragmas
+                 -fno-omit-interface-pragmas -fno-strictness 
+                 -fno-spec-constr -fno-specialise -fexpose-all-unfoldings
+                 -fplugin-opt PlutusTx.Plugin:defer-errors
+                 -fplugin-opt PlutusTx.Plugin:target-version=1.0.0
+
+
+library
+    import:             common-all
+    hs-source-dirs:     lecture
+    exposed-modules:    State
+                        NegativeRTimed
+                        ExploitableSwap
+
+
+test-suite PSM
+    import:             common-all
+    type:               exitcode-stdio-1.0
+    main-is:            PSM.hs
+    hs-source-dirs:     lecture_tests
+    build-depends:      testing-lesson
+
+test-suite UTNegativeRTimed
+    import:             common-all
+    type:               exitcode-stdio-1.0
+    main-is:            UTNegativeRTimed.hs
+    hs-source-dirs:     lecture_tests
+    build-depends:      testing-lesson
+
+test-suite PTNegativeRTimed
+    import:             common-all
+    type:               exitcode-stdio-1.0
+    main-is:            PTNegativeRTimed.hs
+    hs-source-dirs:     lecture_tests
+    build-depends:      testing-lesson
+
+test-suite TExploitableSwap
+    import:             common-all
+    type:               exitcode-stdio-1.0
+    main-is:            TExploitableSwap.hs
+    hs-source-dirs:     homework
+    build-depends:      testing-lesson

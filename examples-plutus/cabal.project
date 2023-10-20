@@ -21,6 +21,10 @@ packages: utilities/utilities.cabal
           24-hello-world/offchain/hello-world-offchain.cabal
           25-validators/onchain/validators-onchain.cabal
           25-validators/offchain/validators-offchain.cabal
+          26-time-minting/onchain/time-minting-onchain.cabal
+          26-time-minting/offchain/time-minting-offchain.cabal
+          27-testing/testing-lesson.cabal
+          28-stablecoin/stablecoin.cabal
 
 -- TODO: Default value should be @direct@ in upcoming 3.10 version of cabal, omit this line then.
 test-show-details: direct
