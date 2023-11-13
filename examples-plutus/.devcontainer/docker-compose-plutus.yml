@@ -4,7 +4,7 @@ volumes:
   shared: 
 services:
   dev:
-    image: robertinoiog/kenya_course:v2-no-bin--amd64
+    image: robertinoiog/kenya_course:v4
     volumes:
       # Mounts the project folder to '/workspace'. The target path inside the container
       # should match what your application expects. In this case, the compose file is
