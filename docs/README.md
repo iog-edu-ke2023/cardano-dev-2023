@@ -15,7 +15,7 @@ This is a full-time 8-week course that will take you from zero to a productive H
 
 Here's a high-level overview of each week's contents:
 
-**⚠️ IMPORTANT!: The original schedule and outline have been heavily modified due to the students' lack of time (see "Lectures" section). ⚠️**
+**⚠️ IMPORTANT!: The original schedule and outline have been heavily modified due to the students' lack of time (see "Lectures" section).**
 
 - **Week 1 (Haskell - 07/08):** Introduction to Haskell's syntax, core principles, and IO.
 - **Week 2 (Haskell - 14/08):** Testing, common abstractions, tools, and testing.
@@ -57,10 +57,10 @@ Instructions on how to install the necessary software will be available here whe
 ## How to get help
 
 - [Discord for this course](https://discord.gg/XEd3hbCZ)
-- [Haskell tag stackoverflow.com](https://stackoverflow.com/questions/tagged/haskell)
+- [Haskell tag stackoverflow](https://stackoverflow.com/questions/tagged/haskell)
 - [IOG Technical Community](https://discord.com/invite/inputoutput)
 
-## Lectures
+## Lectures ([recordings](https://www.youtube.com/playlist?list=PLo0zObhRR4XV9qM0rQV6G5evaAyhyl9xx))
 
 |      ID     | Lecture and slides                                       | Assignments                                            | Projects                                            |
 |-------------|----------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
@@ -74,11 +74,11 @@ Instructions on how to install the necessary software will be available here whe
 |             | Packaging & Tools                                        |     --                                                 |                                                     |
 | Lecture 060 | IO                                                       |     [A6](https://classroom.github.com/a/FtEiTAuM) / T1 |                                                     |
 | **Week 02** |                                                          |   **[W1](https://classroom.github.com/a/SCL-tjks)**    |                                                     |
-| Lecture 060 | Testing                                                  |                                                        |                                                     |
-| Lecture 070 | Abstraction Patterns                                     |                                                        |                                                     |
-| Lecture 080 | Concurrency                                              |                                                        |                                                     |
-| Lecture 090 | Network Servers                                          |                                                        |                                                     |
-| Lecture 100 | Parser Combinators                                       |                                                        |                                                     |
+| Lecture 070 | Testing                                                  |                                                        |                                                     |
+| Lecture 080 | Abstraction Patterns                                     |                                                        |                                                     |
+| Lecture 090 | Concurrency                                              |                                                        |                                                     |
+| Lecture 100 | Network Servers                                          |                                                        |                                                     |
+| Lecture 110 | Parser Combinators                                       |                                                        |                                                     |
 | **Week 03** |                                                          |                                                        |                                                     |
 | Lecture 120 | Data Structures                                          |                                                        |                                                     |
 | **Week 04** |                                                          |                                                        |                                                     |
@@ -88,24 +88,24 @@ Instructions on how to install the necessary software will be available here whe
 | Lecture 150 | More on Optics                                           |                                                        |                                                     |
 | Lecture 160 | More on Monads (MonadT)                                  |                                                        |                                                     |
 | **Week 06** |                                                          |   **[W3](https://classroom.github.com/a/0PEjxAov)**    |                                                     |
-| Lecture 150 | Free Monads                                              |                                                        |                                                     |
-| Lecture 160 | Generics                                                 |                                                        |                                                     |
-| **Week 07** |                                                          |   **[W4](https://classroom.github.com/a/L1O7zRdt)**                                               |                                                     |
+| Lecture 170 | Free Monads                                              |                                                        |                                                     |
+| Lecture 180 | Generics                                                 |                                                        |                                                     |
+| **Week 07** |                                                          |   **[W4](https://classroom.github.com/a/L1O7zRdt)**    |                                                     |
 | BREAK       |                                                          |                                                        |                                                     |
 | **Week 08** |                                                          |   **W5**                                               |                                                     |
-| Lecture 160 | Template Haskell                                         |                                                        |                                                     |
+| Lecture 190 | Template Haskell                                         |                                                        |                                                     |
 | **Week 09** |                                                          |                                                        |                                                     |
-| Lecture 150 | Web development                                          |                                                        |                                                     |
-| Lecture 160 | Introduction to Marlowe                                  |                                                        |                                                     |
+| Lecture 200 | Web development                                          |                                                        |                                                     |
+| Lecture 210 | Introduction to Marlowe                                  |                                                        |                                                     |
 | **Week 10** |                                                          |                                                        |                                                     |
-| Lecture 170 | Marlowe Smart Contracts and infrastructure               |                                                        |                                                     |
-| Lecture 180 | Introduction to Plutus (EUTxO and untyped Plutus)        |                                                        |                                                     |
+| Lecture 220 | Marlowe Smart Contracts and infrastructure               |                                                        |                                                     |
+| Lecture 230 | Introduction to Plutus (EUTxO and untyped Plutus)        |                                                        |                                                     |
 | **Week 11** |                                                          |                                                        |                                                     |
-| Lecture 190 | Typed Plutus                                             |                                                        |                                                     |
-| Lecture 200 | Handling time and minting wiht Plutus                    |                                                        |                                                     |
+| Lecture 240 | Typed Plutus                                             |                                                        |                                                     |
+| Lecture 250 | Handling time and minting with Plutus                    |                                                        |                                                     |
 | **Week 12** |                                                          |                                                        |                                                     |
-| Lecture 210 | Testing Plutus contracts                                 |                                                        |                                                     |
-| Lecture 220 | Builging a Stable Coin Dapp                              |                                                        |                                                     |
+| Lecture 260 | Testing Plutus contracts                                 |                                                        |                                                     |
+| Lecture 270 | Building a Stable Coin Dapp                              |                                                        |                                                     |
 | **Week 13** |                                                          |                                                        |                                                     |
 | HOMEWORK    | FINAL PROJECT                                            |                                                        |                                                     |
 
@@ -134,7 +134,7 @@ We have read most of these books and they provide good information for beginners
 
 1. Lipovača M. [Learn You A Haskell For Great Good!](http://learnyouahaskell.com/). San Francisco: No Starch Press; 2012.
 
->Beginner Friendly book with lots of examples.
+> Beginner-friendly book with lots of examples.
 
 2. O'Sullivan B, Stewart D, Goerzen J. [Real World Haskell](http://book.realworldhaskell.org/). Farnham: O'Reilly; 2009.
 
